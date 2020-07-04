@@ -1,0 +1,24 @@
+The script tag can be used in html documents to insert Javascript programs
+into html files like so: <script> alert ("Hello World!"); </script>
+see HelloWorldJS.html for an example.
+
+If we have a lot of complex JavaScript code we can also write the JavaScript code in its own file like helloWorld.js for example, and then insert that entire file as a script with the src attribute like so:
+<script src="helloWorld.js"></script> 
+see externalJS.html and helloWorld.js for an example.
+the path can be either absolute or relative. in the above example we are assuming that helloWorld.js lies in the same folder as our html file.
+
+we can also give a full url as the script src attribute. like so:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+
+to attach several scripts, just use multiple tags.
+
+if src is set, the script content is ignored, this wont work:
+<script src="file.js">
+alert(1);
+</script>
+
+a script tag also has type and language attributes, but in modern use cases these attributes are rarely used.
+As a result htey are not required.
+
+Also, a cool trick I learnt on my own, you can use linux terminal to open webpages with either firefox or chrome
+by using the command firefox <filename>.html or google-chrome <filename>.html respectively.
