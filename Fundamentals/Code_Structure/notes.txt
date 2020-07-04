@@ -1,0 +1,30 @@
+statements are syntax constructs and commands that perform actions, alert("Hello World!") is a statement.
+We can seperate statements with semicolons like so alert("Hello"); alert("World!"); 
+but are usually also written on seperate lines to make the code more human readable.
+a semi colon may be omitted in most cases when a line break exists:
+alert("Hello")
+alert("World!")
+also works, this is called an automatic semicolon insertion.
+
+if the expression is incomplete, and a new line is added, JavaScript wont insert a semicolon.
+also, when the expression after the newline starts with square brackets [], JavaScript will again, not insert a semicolon.
+
+sure it's possible to omit semicolons sometimes, but its safer to just use them to seperate statements all the time. 
+
+COMMENTS:
+single line comments start with a // for example
+// this is a single line comment
+
+Multi-line comments start with a /* and end with a */
+/* this
+is
+a 
+multi
+line
+comment
+*/
+
+similar to java.
+
+NESTED comments are not supported.
+
