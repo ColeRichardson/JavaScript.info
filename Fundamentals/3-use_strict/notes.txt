@@ -1,0 +1,12 @@
+to use the modern mode of JavaScript, we need to enable the modifications made to ECMAScript 5 in 2009 by using a directive "use strict"
+or 'use_strict'
+this directive must be included at the very top of the script before any other code is executed.
+strict mode cannot be canceled once it has been enabled within a script. so if part of the script requires strict mode, 
+then the whole script muist be written to comply with the specifications of strict mode in ecma5. 
+in the developer console we just use shift+enter to enter multiple lines
+dont forget to insert the semicolon after the 'use strict'; directive like so.
+
+Modern javaScript supports clsses and modules advanced language structures that enable use strict automatically.
+so for now 'use strict' at the top of the script along with <!DOCTYPE HTML> and <html> </html>
+
+all examples in this tutorial envolve strict mode, unless stated otherwise (rarely)
