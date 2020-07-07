@@ -1,0 +1,32 @@
+to create a variable in JAvaScript use the let keyword
+example: 
+let message; //declares the variable
+message = "Hello"; //stores the word Hello in the variable
+alert(message); // shows the message content
+
+can be combined into a single line.
+let message = "hello";
+
+also can declare multiple variables in one line:
+let user = "john", age ="25",  message = "Hello";
+
+however for the sake of readability we normally want to be using the multi line variation. 
+
+in older scripst you masy find the use of var instead of let. there are subtle differnces that will be covered later in the course.
+
+note that declaring the same variable twice causes an error. 
+
+variable naming: ther are 2 main naming convention in java script 
+1) the name must contain only letters, digits or the symbols $ and _
+2) the first character must not be a digit
+
+case matters apple and Apple are two differnt variables.
+
+dont need to declare with let in use strict mode, will cause an error if we try to asssign to a varaible that hasnt been declared when use strict mode has been enabled. 
+
+to delcare a constant use const instead of let when declaring the variable. const and let are the same except const variables cannot be reassgined to different values once given an inital value.
+are declared with an inital value. 
+
+will cause an error if you try to reassign a different value to the variable. 
+
+
