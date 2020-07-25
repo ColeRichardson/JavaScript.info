@@ -1,0 +1,66 @@
+there are 8 basic types in javaScript
+
+javascript is a dynamically typed language meaning that the type of a varaible can change.
+
+numbers:
+besides regular numbers there are so-called special numeric values which also belong to this data type: Infinity, -Infinity, NaN.
+1/0 = Infinity
+
+BigInt:
+-In JavaScript the number type cannot represent integer values larger than 2^53-1 = 9007188254740991 or less than -(2^53) -1 for negatives. 
+-BigInt type was added to represent integers of arbitrary length.
+-A BigInt value is created by appending n to the end of an integer. 
+-right now BigInt is supported by chrome/firefox/edge but not safari/IE.
+
+-const bigInt = 1231345134523452345234523452345234523452345n;
+
+String:
+-a string in java msut be surrounded by quotes
+-there are 3 types of quotes in java-script:
+1) double quotes "Hello"
+2) single quotes 'Hello'
+3) backticks: `Hello`
+-double and single quotes are basically the same, they are called "simple" quotes
+-Backticks are "extended functionality" quotes. They allow us to embed variables and expression into a string by wrapping them in ${...}, for example 
+let name = John;
+//embed a variable
+alert(`Hello, ${name}!`); //Hello, John!
+//embed an expression
+alert(`the result is ${1 + 2}`) //the result is 3
+-the expression insde the ${...} is evaluated and the result becomes a part of the string 
+
+-There is no char data type in Javascript, only string.
+
+Boolean(Logical Type):
+-the boolean only has two values true and false.
+-works obviously and similar to other languages python, java, etc.
+
+The "null" value:
+-the special null type does not belong to any of the types described above, its the sole member of its own type. Its not a null pointer like in c, it just represents empty, nothing, or value unknown.
+
+The "undefined" value:
+-the special value undefined also stands apart, its makes a type of its own just like null. 
+-the meaning of undefined is "value not assigned"
+-example, we can also see that we can explicitly assign something as undefined.
+let age;
+alert(age); // shows undefined
+let age = 100;
+age = undefined;
+alert(age); //  show undefined
+-although you should jsut use null in this context.
+
+Objects and Symbols:
+-the object type is special.
+-all other types are called primitive because they can only contain a single thing. be it a number or a string. 
+-in contrasts objects store a collection of data and more complex entities.
+-the symbol type is used to create unique identifiers for obejcts
+
+The typeof operator:
+-the typeof operator returns the type of the argument. 
+-it supports 2 forms of syntax:
+1) as an operator typeof x
+2) as a function typeof(x)
+-either way the result is the same, it jsut returns a string containing the name of the type.
+
+
+

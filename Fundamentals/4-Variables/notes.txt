@@ -22,7 +22,7 @@ variable naming: ther are 2 main naming convention in java script
 
 case matters apple and Apple are two differnt variables.
 
-dont need to declare with let in use strict mode, will cause an error if we try to asssign to a varaible that hasnt been declared when use strict mode has been enabled. 
+dont need to declare with let when not in use strict mode, we have to use let when strict mode has been enabled.
 
 to delcare a constant use const instead of let when declaring the variable. const and let are the same except const variables cannot be reassgined to different values once given an inital value.
 are declared with an inital value. 
